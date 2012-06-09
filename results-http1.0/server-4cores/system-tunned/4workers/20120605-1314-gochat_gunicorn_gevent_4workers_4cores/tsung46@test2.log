@@ -1,0 +1,2543 @@
+
+=INFO REPORT==== 5-Jun-2012::13:17:45 ===
+     ts_launcher_mgr:(4:<0.57.0>) No registered processes ! syncing ...
+
+=INFO REPORT==== 5-Jun-2012::13:17:50 ===
+           ts_client:(3:<0.303.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:50 ===
+** State machine <0.303.0> terminating 
+** Last message in was {tcp,#Port<0.1325>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:46 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,24},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895070,183111},
+                     {1338,895066,488680},
+                     2,10,false,
+                     {1338,895070,183111},
+                     {1338,895066,490151},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,58891,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"58891"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:50 ===
+           ts_client:(3:<0.301.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:50 ===
+** State machine <0.301.0> terminating 
+** Last message in was {tcp,#Port<0.1338>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:47 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,26},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895070,415776},
+                     {1338,895066,486960},
+                     2,10,false,
+                     {1338,895070,415776},
+                     {1338,895066,488062},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,58889,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"58889"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+           ts_client:(3:<0.267.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:51 ===
+** State machine <0.267.0> terminating 
+** Last message in was {tcp,#Port<0.1339>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:47 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,27},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895070,415746},
+                     {1338,895066,73765},
+                     2,10,false,
+                     {1338,895070,415746},
+                     {1338,895066,75567},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,58849,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"58849"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+           ts_client:(3:<0.312.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:51 ===
+** State machine <0.312.0> terminating 
+** Last message in was {tcp,#Port<0.1349>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:47 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,3},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895069,201077},
+                     {1338,895066,797053},
+                     2,10,false,
+                     {1338,895069,201077},
+                     {1338,895066,801609},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,58912,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"58912"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+           ts_client:(3:<0.300.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:51 ===
+** State machine <0.300.0> terminating 
+** Last message in was {tcp,#Port<0.1392>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:47 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,27},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895070,989402},
+                     {1338,895066,481562},
+                     2,10,false,
+                     {1338,895070,989402},
+                     {1338,895066,486807},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,58888,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"58888"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:51 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+           ts_client:(3:<0.310.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:52 ===
+** State machine <0.310.0> terminating 
+** Last message in was {tcp,#Port<0.1434>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:48 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,7},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895071,509727},
+                     {1338,895066,764894},
+                     2,10,false,
+                     {1338,895071,509727},
+                     {1338,895066,768571},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,58908,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"58908"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+           ts_client:(3:<0.251.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:52 ===
+** State machine <0.251.0> terminating 
+** Last message in was {tcp,#Port<0.1442>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:48 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,10},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895071,694384},
+                     {1338,895065,997029},
+                     2,10,false,
+                     {1338,895071,694384},
+                     {1338,895065,999156},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,58827,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"58827"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+           ts_client:(3:<0.295.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:52 ===
+** State machine <0.295.0> terminating 
+** Last message in was {tcp,#Port<0.1452>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:48 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,32},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895071,852786},
+                     {1338,895066,467356},
+                     2,10,false,
+                     {1338,895071,852786},
+                     {1338,895066,469413},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,58883,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"58883"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+           ts_client:(3:<0.336.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:52 ===
+** State machine <0.336.0> terminating 
+** Last message in was {tcp,#Port<0.1470>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:48 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,11},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895071,978369},
+                     {1338,895067,114600},
+                     2,10,false,
+                     {1338,895071,978369},
+                     {1338,895067,116245},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,59060,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"59060"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+           ts_client:(3:<0.266.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:52 ===
+** State machine <0.266.0> terminating 
+** Last message in was {tcp,#Port<0.1474>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:48 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,28},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895072,5075},
+                     {1338,895066,69434},
+                     2,10,false,
+                     {1338,895072,5075},
+                     {1338,895066,71345},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,58848,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"58848"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+           ts_client:(3:<0.302.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:52 ===
+** State machine <0.302.0> terminating 
+** Last message in was {tcp,#Port<0.1476>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:48 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,25},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895072,12992},
+                     {1338,895066,487889},
+                     2,10,false,
+                     {1338,895072,12992},
+                     {1338,895066,489043},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,58890,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"58890"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:52 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+           ts_client:(3:<0.313.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:53 ===
+** State machine <0.313.0> terminating 
+** Last message in was {tcp,#Port<0.1482>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:48 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,11},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895072,78235},
+                     {1338,895067,47717},
+                     2,10,false,
+                     {1338,895072,78235},
+                     {1338,895067,49042},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,59005,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"59005"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+           ts_client:(3:<0.383.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:53 ===
+** State machine <0.383.0> terminating 
+** Last message in was {tcp,#Port<0.1409>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:48 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,31},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895071,115971},
+                     {1338,895067,461327},
+                     2,10,false,
+                     {1338,895071,115971},
+                     {1338,895067,463064},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,59183,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"59183"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+           ts_client:(3:<0.381.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           9}]}}} (count=1)
+
+=ERROR REPORT==== 5-Jun-2012::13:17:53 ===
+** State machine <0.381.0> terminating 
+** Last message in was {tcp,#Port<0.1489>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Tue, 05 Jun 2012 11:17:48 GMT\r\nConnection: close\r\nContent-type: text/plain\r\nContent-Length: 13\r\n\r\nHello, World!">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,33},"cport-test2"},
+                     undefined,0,10000,"myserver",8084,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8084",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,895072,113152},
+                     {1338,895067,456880},
+                     2,10,false,
+                     {1338,895072,113152},
+                     {1338,895067,458935},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,59178,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"59178"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::13:17:53 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !

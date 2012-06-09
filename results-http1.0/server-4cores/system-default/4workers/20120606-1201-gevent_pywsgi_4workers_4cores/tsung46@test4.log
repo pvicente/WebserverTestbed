@@ -1,0 +1,1308 @@
+
+=INFO REPORT==== 6-Jun-2012::11:48:33 ===
+     ts_launcher_mgr:(4:<0.57.0>) No registered processes ! syncing ...
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.314.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.314.0> terminating 
+** Last message in was {tcp,#Port<0.1678>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:18 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,31},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,58670},
+                     {1338,976114,435384},
+                     3,10,false,
+                     {1338,976117,58670},
+                     {1338,976114,437061},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61157,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61157"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.347.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.347.0> terminating 
+** Last message in was {tcp,#Port<0.1682>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:18 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,37},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,60654},
+                     {1338,976114,553519},
+                     3,10,false,
+                     {1338,976117,60654},
+                     {1338,976114,557309},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61190,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61190"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.299.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.299.0> terminating 
+** Last message in was {tcp,#Port<0.1684>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:18 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,7},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,65571},
+                     {1338,976114,374826},
+                     3,10,false,
+                     {1338,976117,65571},
+                     {1338,976114,376192},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61142,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61142"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.286.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.286.0> terminating 
+** Last message in was {tcp,#Port<0.1687>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:18 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,20},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,64221},
+                     {1338,976114,315726},
+                     3,10,false,
+                     {1338,976117,64221},
+                     {1338,976114,317054},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61129,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61129"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.342.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.342.0> terminating 
+** Last message in was {tcp,#Port<0.1691>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:18 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,3},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,63744},
+                     {1338,976114,534721},
+                     3,10,false,
+                     {1338,976117,63744},
+                     {1338,976114,536205},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61185,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61185"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.306.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.306.0> terminating 
+** Last message in was {tcp,#Port<0.1704>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:18 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,39},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,76325},
+                     {1338,976114,392046},
+                     3,10,false,
+                     {1338,976117,76325},
+                     {1338,976114,394115},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61149,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61149"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.298.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.298.0> terminating 
+** Last message in was {tcp,#Port<0.1705>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:18 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,8},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,72280},
+                     {1338,976114,371051},
+                     3,10,false,
+                     {1338,976117,72280},
+                     {1338,976114,373305},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61141,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61141"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.334.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.334.0> terminating 
+** Last message in was {tcp,#Port<0.1730>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:18 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,11},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,95641},
+                     {1338,976114,510883},
+                     3,10,false,
+                     {1338,976117,95641},
+                     {1338,976114,512490},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61177,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61177"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.345.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.345.0> terminating 
+** Last message in was {tcp,#Port<0.1726>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:18 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,39},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,97096},
+                     {1338,976114,551407},
+                     3,10,false,
+                     {1338,976117,97096},
+                     {1338,976114,553119},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61188,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61188"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.371.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.371.0> terminating 
+** Last message in was {tcp,#Port<0.1770>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,13},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,341434},
+                     {1338,976114,715974},
+                     3,10,false,
+                     {1338,976117,341434},
+                     {1338,976114,718169},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61229,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61229"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.308.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.308.0> terminating 
+** Last message in was {tcp,#Port<0.1799>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,37},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,422833},
+                     {1338,976114,399627},
+                     3,10,false,
+                     {1338,976117,422833},
+                     {1338,976114,401054},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61151,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61151"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.309.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.309.0> terminating 
+** Last message in was {tcp,#Port<0.1804>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,36},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,419996},
+                     {1338,976114,400590},
+                     3,10,false,
+                     {1338,976117,419996},
+                     {1338,976114,402043},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61152,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61152"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.318.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.318.0> terminating 
+** Last message in was {tcp,#Port<0.1806>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,27},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,430859},
+                     {1338,976114,446070},
+                     3,10,false,
+                     {1338,976117,430859},
+                     {1338,976114,450381},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61161,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61161"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.321.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.321.0> terminating 
+** Last message in was {tcp,#Port<0.1812>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,24},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,434789},
+                     {1338,976114,466982},
+                     3,10,false,
+                     {1338,976117,434789},
+                     {1338,976114,468044},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61164,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61164"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.330.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.330.0> terminating 
+** Last message in was {tcp,#Port<0.1838>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,15},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,454890},
+                     {1338,976114,501299},
+                     3,10,false,
+                     {1338,976117,454890},
+                     {1338,976114,504022},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61173,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61173"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:37 ===
+           ts_client:(3:<0.336.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:37 ===
+** State machine <0.336.0> terminating 
+** Last message in was {tcp,#Port<0.1849>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,9},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,467573},
+                     {1338,976114,522210},
+                     3,10,false,
+                     {1338,976117,467573},
+                     {1338,976114,524046},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61179,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61179"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.455.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.455.0> terminating 
+** Last message in was {tcp,#Port<0.1907>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,34},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,743046},
+                     {1338,976115,96239},
+                     3,10,false,
+                     {1338,976117,743046},
+                     {1338,976115,98039},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61418,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61418"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.487.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.487.0> terminating 
+** Last message in was {tcp,#Port<0.1909>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,9},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,773136},
+                     {1338,976115,243342},
+                     3,10,false,
+                     {1338,976117,773136},
+                     {1338,976115,245045},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61514,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61514"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.503.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.503.0> terminating 
+** Last message in was {tcp,#Port<0.1913>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,19},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,782346},
+                     {1338,976115,313694},
+                     3,10,false,
+                     {1338,976117,782346},
+                     {1338,976115,315421},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61565,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61565"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.414.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.414.0> terminating 
+** Last message in was {tcp,#Port<0.1915>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,9},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,783774},
+                     {1338,976114,914877},
+                     3,10,false,
+                     {1338,976117,783774},
+                     {1338,976114,916329},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61321,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61321"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.491.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.491.0> terminating 
+** Last message in was {tcp,#Port<0.1917>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,1},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,783716},
+                     {1338,976115,259761},
+                     3,10,false,
+                     {1338,976117,783716},
+                     {1338,976115,261987},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61531,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61531"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.459.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.459.0> terminating 
+** Last message in was {tcp,#Port<0.1918>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,30},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,820009},
+                     {1338,976115,102841},
+                     3,10,false,
+                     {1338,976117,820009},
+                     {1338,976115,105017},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61424,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61424"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.439.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.439.0> terminating 
+** Last message in was {tcp,#Port<0.1927>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,23},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,829254},
+                     {1338,976115,7730},
+                     3,10,false,
+                     {1338,976117,829254},
+                     {1338,976115,9816},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61368,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61368"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.380.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.380.0> terminating 
+** Last message in was {tcp,#Port<0.1936>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,4},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,855778},
+                     {1338,976114,755686},
+                     3,10,false,
+                     {1338,976117,855778},
+                     {1338,976114,757861},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61247,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61247"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.373.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.373.0> terminating 
+** Last message in was {tcp,#Port<0.1937>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,11},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,863970},
+                     {1338,976114,722100},
+                     3,10,false,
+                     {1338,976117,863970},
+                     {1338,976114,724042},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61233,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61233"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.341.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.341.0> terminating 
+** Last message in was {tcp,#Port<0.1940>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,4},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,867342},
+                     {1338,976114,532698},
+                     3,10,false,
+                     {1338,976117,867342},
+                     {1338,976114,534434},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61184,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61184"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.355.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.355.0> terminating 
+** Last message in was {tcp,#Port<0.1946>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,29},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,875359},
+                     {1338,976114,593199},
+                     3,10,false,
+                     {1338,976117,875359},
+                     {1338,976114,599091},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61198,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61198"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.283.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.283.0> terminating 
+** Last message in was {tcp,#Port<0.1947>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,23},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,883576},
+                     {1338,976114,292366},
+                     3,10,false,
+                     {1338,976117,883576},
+                     {1338,976114,294041},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61126,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61126"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 6-Jun-2012::11:48:38 ===
+           ts_client:(3:<0.405.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 6-Jun-2012::11:48:38 ===
+** State machine <0.405.0> terminating 
+** Last message in was {tcp,#Port<0.1954>,
+                            <<"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nDate: Wed, 06 Jun 2012 10:05:19 GMT\r\nConnection: close\r\nContent-Length: 18\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,18},"cport-test4"},
+                     undefined,0,10000,"myserver",8094,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8094",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,976117,929255},
+                     {1338,976114,874961},
+                     3,10,false,
+                     {1338,976117,929255},
+                     {1338,976114,876139},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,61304,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"61304"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error

@@ -1,0 +1,16 @@
+
+=INFO REPORT==== 5-Jun-2012::19:29:14 ===
+     ts_launcher_mgr:(4:<0.57.0>) No registered processes ! syncing ...
+
+=INFO REPORT==== 5-Jun-2012::19:29:18 ===
+         ts_launcher:(4:<0.62.0>) Phase duration exceeded, more than 20% (95.6%) of users were not launched in time (2239 users), tsung may be overloaded !
+
+=INFO REPORT==== 5-Jun-2012::19:29:25 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test2"}]}}}], skip this session !

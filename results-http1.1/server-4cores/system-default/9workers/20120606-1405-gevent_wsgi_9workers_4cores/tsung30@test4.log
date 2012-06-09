@@ -1,0 +1,2491 @@
+
+=INFO REPORT==== 6-Jun-2012::13:51:22 ===
+     ts_launcher_mgr:(4:<0.57.0>) No registered processes ! syncing ...
+
+=INFO REPORT==== 6-Jun-2012::13:51:25 ===
+         ts_launcher:(4:<0.62.0>) Phase duration exceeded, more than 20% (88.0%) of users were not launched in time (1442 users), tsung may be overloaded !
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.268.0> terminating 
+** Last message in was {tcp,#Port<0.1105>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1105>,
+                     {{10,0,4,32},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,578986},
+                     {1338,983484,383415},
+                     7,10,false,
+                     {1338,983485,578986},
+                     {1338,983484,385158},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40332,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40332"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.266.0> terminating 
+** Last message in was {tcp,#Port<0.1106>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1106>,
+                     {{10,0,4,34},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,578972},
+                     {1338,983484,374930},
+                     7,10,false,
+                     {1338,983485,578972},
+                     {1338,983484,376137},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40330,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40330"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.324.0> terminating 
+** Last message in was {tcp,#Port<0.961>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.961>,
+                     {{10,0,4,15},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,604280},
+                     {1338,983484,601125},
+                     9,10,false,
+                     {1338,983484,604280},
+                     {1338,983484,604280},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40388,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40388"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.361.0> terminating 
+** Last message in was {tcp,#Port<0.1122>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1122>,
+                     {{10,0,4,17},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,578595},
+                     {1338,983484,767113},
+                     8,10,false,
+                     {1338,983485,578595},
+                     {1338,983484,769424},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40429,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40429"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.342.0> terminating 
+** Last message in was {tcp,#Port<0.1140>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1140>,
+                     {{10,0,4,36},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,578349},
+                     {1338,983484,681662},
+                     8,10,false,
+                     {1338,983485,578349},
+                     {1338,983484,683034},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40406,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40406"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.337.0> terminating 
+** Last message in was {tcp,#Port<0.1145>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1145>,
+                     {{10,0,4,2},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,578279},
+                     {1338,983484,665908},
+                     8,10,false,
+                     {1338,983485,578279},
+                     {1338,983484,667309},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40401,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40401"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.234.0> terminating 
+** Last message in was {tcp,#Port<0.1144>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1144>,
+                     {{10,0,4,27},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,578291},
+                     {1338,983484,179905},
+                     7,10,false,
+                     {1338,983485,578291},
+                     {1338,983484,181160},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40298,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40298"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.339.0> terminating 
+** Last message in was {tcp,#Port<0.1142>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1142>,
+                     {{10,0,4,39},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,578316},
+                     {1338,983484,676831},
+                     8,10,false,
+                     {1338,983485,578316},
+                     {1338,983484,678493},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40403,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40403"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.335.0> terminating 
+** Last message in was {tcp,#Port<0.1148>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1148>,
+                     {{10,0,4,4},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,578242},
+                     {1338,983484,648801},
+                     8,10,false,
+                     {1338,983485,578242},
+                     {1338,983484,650046},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40399,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40399"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.233.0> terminating 
+** Last message in was {tcp,#Port<0.1147>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1147>,
+                     {{10,0,4,28},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,578254},
+                     {1338,983484,171446},
+                     7,10,false,
+                     {1338,983485,578254},
+                     {1338,983484,173175},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40297,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40297"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.336.0> terminating 
+** Last message in was {tcp,#Port<0.1146>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1146>,
+                     {{10,0,4,3},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,578266},
+                     {1338,983484,654800},
+                     8,10,false,
+                     {1338,983485,578266},
+                     {1338,983484,656047},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40400,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40400"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.338.0> terminating 
+** Last message in was {tcp,#Port<0.1143>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1143>,
+                     {{10,0,4,1},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,578304},
+                     {1338,983484,667269},
+                     8,10,false,
+                     {1338,983485,578304},
+                     {1338,983484,669118},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40402,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40402"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.320.0> terminating 
+** Last message in was {tcp,#Port<0.1169>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1169>,
+                     {{10,0,4,19},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,577981},
+                     {1338,983484,594824},
+                     8,10,false,
+                     {1338,983485,577981},
+                     {1338,983484,596162},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40384,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40384"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.322.0> terminating 
+** Last message in was {tcp,#Port<0.1168>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1168>,
+                     {{10,0,4,17},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,577993},
+                     {1338,983484,596268},
+                     8,10,false,
+                     {1338,983485,577993},
+                     {1338,983484,598195},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40386,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40386"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.334.0> terminating 
+** Last message in was {tcp,#Port<0.1149>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1149>,
+                     {{10,0,4,5},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,578230},
+                     {1338,983484,643871},
+                     8,10,false,
+                     {1338,983485,578230},
+                     {1338,983484,645053},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40398,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40398"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.307.0> terminating 
+** Last message in was {tcp,#Port<0.1182>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1182>,
+                     {{10,0,4,32},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,577741},
+                     {1338,983484,547022},
+                     8,10,false,
+                     {1338,983485,577741},
+                     {1338,983484,549168},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40371,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40371"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.316.0> terminating 
+** Last message in was {tcp,#Port<0.1171>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1171>,
+                     {{10,0,4,23},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,577956},
+                     {1338,983484,582740},
+                     8,10,false,
+                     {1338,983485,577956},
+                     {1338,983484,584037},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40380,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40380"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.217.0> terminating 
+** Last message in was {tcp,#Port<0.1170>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1170>,
+                     {{10,0,4,1},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,577968},
+                     {1338,983484,121419},
+                     7,10,false,
+                     {1338,983485,577968},
+                     {1338,983484,123042},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40285,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40285"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.306.0> terminating 
+** Last message in was {tcp,#Port<0.1183>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1183>,
+                     {{10,0,4,33},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,577728},
+                     {1338,983484,542055},
+                     8,10,false,
+                     {1338,983485,577728},
+                     {1338,983484,546995},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40370,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40370"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.208.0> terminating 
+** Last message in was {tcp,#Port<0.1184>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1184>,
+                     {{10,0,4,10},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,577715},
+                     {1338,983484,92238},
+                     7,10,false,
+                     {1338,983485,577715},
+                     {1338,983484,94234},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40276,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40276"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.273.0> terminating 
+** Last message in was {tcp,#Port<0.1187>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1187>,
+                     {{10,0,4,27},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,579234},
+                     {1338,983484,409913},
+                     7,10,false,
+                     {1338,983485,579234},
+                     {1338,983484,413568},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40337,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40337"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.294.0> terminating 
+** Last message in was {tcp,#Port<0.1197>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1197>,
+                     {{10,0,4,6},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,579991},
+                     {1338,983484,502240},
+                     7,10,false,
+                     {1338,983485,579991},
+                     {1338,983484,504110},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40358,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40358"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.295.0> terminating 
+** Last message in was {tcp,#Port<0.1196>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1196>,
+                     {{10,0,4,5},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,580049},
+                     {1338,983484,504883},
+                     7,10,false,
+                     {1338,983485,580049},
+                     {1338,983484,506146},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40359,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40359"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.287.0> terminating 
+** Last message in was {tcp,#Port<0.1206>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1206>,
+                     {{10,0,4,13},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,579818},
+                     {1338,983484,463260},
+                     7,10,false,
+                     {1338,983485,579818},
+                     {1338,983484,465054},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40351,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40351"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.398.0> terminating 
+** Last message in was {tcp,#Port<0.1204>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1204>,
+                     {{10,0,4,21},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,579843},
+                     {1338,983484,956543},
+                     8,10,false,
+                     {1338,983485,579843},
+                     {1338,983484,959226},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40518,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40518"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.296.0> terminating 
+** Last message in was {tcp,#Port<0.1195>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1195>,
+                     {{10,0,4,4},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,580070},
+                     {1338,983484,516127},
+                     7,10,false,
+                     {1338,983485,580070},
+                     {1338,983484,518310},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40360,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40360"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.407.0> terminating 
+** Last message in was {tcp,#Port<0.1222>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1222>,
+                     {{10,0,4,12},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983485,599122},
+                     {1338,983485,588861},
+                     9,10,false,
+                     {1338,983485,599122},
+                     {1338,983485,599122},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40539,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40539"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.396.0> terminating 
+** Last message in was {tcp,#Port<0.1208>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1208>,
+                     {{10,0,4,23},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,579717},
+                     {1338,983484,951376},
+                     8,10,false,
+                     {1338,983485,579717},
+                     {1338,983484,953195},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40514,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40514"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.286.0> terminating 
+** Last message in was {tcp,#Port<0.1207>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1207>,
+                     {{10,0,4,14},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,579748},
+                     {1338,983484,461898},
+                     7,10,false,
+                     {1338,983485,579748},
+                     {1338,983484,463072},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40350,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40350"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.289.0> terminating 
+** Last message in was {tcp,#Port<0.1205>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1205>,
+                     {{10,0,4,11},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,579830},
+                     {1338,983484,465384},
+                     7,10,false,
+                     {1338,983485,579830},
+                     {1338,983484,467705},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40353,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40353"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.408.0> terminating 
+** Last message in was {tcp,#Port<0.1223>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1223>,
+                     {{10,0,4,2},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983485,617715},
+                     {1338,983485,614550},
+                     9,10,false,
+                     {1338,983485,617715},
+                     {1338,983485,617715},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40560,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40560"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.240.0> terminating 
+** Last message in was {tcp,#Port<0.864>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.864>,
+                     {{10,0,4,21},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,218123},
+                     {1338,983484,216377},
+                     9,10,false,
+                     {1338,983484,218123},
+                     {1338,983484,218123},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40304,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40304"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.410.0> terminating 
+** Last message in was {tcp,#Port<0.1224>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1224>,
+                     {{10,0,4,34},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983485,643044},
+                     {1338,983485,641804},
+                     9,10,false,
+                     {1338,983485,643044},
+                     {1338,983485,643044},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40575,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40575"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.412.0> terminating 
+** Last message in was {tcp,#Port<0.1227>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1227>,
+                     {{10,0,4,31},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983485,654189},
+                     {1338,983485,652009},
+                     9,10,false,
+                     {1338,983485,654189},
+                     {1338,983485,654189},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40579,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40579"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.416.0> terminating 
+** Last message in was {tcp,#Port<0.1230>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1230>,
+                     {{10,0,4,23},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983485,670260},
+                     {1338,983485,666577},
+                     9,10,false,
+                     {1338,983485,670260},
+                     {1338,983485,670260},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40596,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40596"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.417.0> terminating 
+** Last message in was {tcp,#Port<0.1232>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1232>,
+                     {{10,0,4,22},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983485,670341},
+                     {1338,983485,667754},
+                     9,10,false,
+                     {1338,983485,670341},
+                     {1338,983485,670341},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40597,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40597"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.415.0> terminating 
+** Last message in was {tcp,#Port<0.1231>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1231>,
+                     {{10,0,4,25},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983485,667089},
+                     {1338,983485,665015},
+                     9,10,false,
+                     {1338,983485,667089},
+                     {1338,983485,667089},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40593,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40593"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.232.0> terminating 
+** Last message in was {tcp,#Port<0.856>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.856>,
+                     {{10,0,4,29},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,171355},
+                     {1338,983484,169828},
+                     9,10,false,
+                     {1338,983484,171355},
+                     {1338,983484,171355},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40296,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40296"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.420.0> terminating 
+** Last message in was {tcp,#Port<0.1237>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1237>,
+                     {{10,0,4,15},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983485,683494},
+                     {1338,983485,681468},
+                     9,10,false,
+                     {1338,983485,683494},
+                     {1338,983485,683494},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40610,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40610"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.421.0> terminating 
+** Last message in was {tcp,#Port<0.1238>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1238>,
+                     {{10,0,4,14},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983485,685041},
+                     {1338,983485,683677},
+                     9,10,false,
+                     {1338,983485,685041},
+                     {1338,983485,685041},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40612,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40612"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.344.0> terminating 
+** Last message in was {tcp,#Port<0.992>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.992>,
+                     {{10,0,4,34},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,685092},
+                     {1338,983484,683337},
+                     9,10,false,
+                     {1338,983484,685092},
+                     {1338,983484,685092},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40408,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40408"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.274.0> terminating 
+** Last message in was {tcp,#Port<0.898>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.898>,
+                     {{10,0,4,26},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,414795},
+                     {1338,983484,412286},
+                     9,10,false,
+                     {1338,983484,414795},
+                     {1338,983484,414795},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40338,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40338"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.241.0> terminating 
+** Last message in was {tcp,#Port<0.1002>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1002>,
+                     {{10,0,4,20},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983484,711908},
+                     {1338,983484,224767},
+                     8,10,false,
+                     {1338,983484,711908},
+                     {1338,983484,226059},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40305,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40305"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.353.0> terminating 
+** Last message in was {tcp,#Port<0.1001>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1001>,
+                     {{10,0,4,25},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,712046},
+                     {1338,983484,710399},
+                     9,10,false,
+                     {1338,983484,712046},
+                     {1338,983484,712046},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40417,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40417"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.243.0> terminating 
+** Last message in was {tcp,#Port<0.1005>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1005>,
+                     {{10,0,4,18},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983484,720354},
+                     {1338,983484,234179},
+                     8,10,false,
+                     {1338,983484,720354},
+                     {1338,983484,236049},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40307,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40307"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.355.0> terminating 
+** Last message in was {tcp,#Port<0.1008>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1008>,
+                     {{10,0,4,23},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,729039},
+                     {1338,983484,727881},
+                     9,10,false,
+                     {1338,983484,729039},
+                     {1338,983484,729039},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40420,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40420"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.249.0> terminating 
+** Last message in was {tcp,#Port<0.1012>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1012>,
+                     {{10,0,4,12},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983484,743254},
+                     {1338,983484,255834},
+                     8,10,false,
+                     {1338,983484,743254},
+                     {1338,983484,257077},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40313,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40313"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.251.0> terminating 
+** Last message in was {tcp,#Port<0.1014>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1014>,
+                     {{10,0,4,10},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983484,747126},
+                     {1338,983484,259568},
+                     8,10,false,
+                     {1338,983484,747126},
+                     {1338,983484,261291},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40315,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40315"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.250.0> terminating 
+** Last message in was {tcp,#Port<0.1013>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1013>,
+                     {{10,0,4,11},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983484,747411},
+                     {1338,983484,258796},
+                     8,10,false,
+                     {1338,983484,747411},
+                     {1338,983484,260117},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40314,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40314"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.359.0> terminating 
+** Last message in was {tcp,#Port<0.1016>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1016>,
+                     {{10,0,4,19},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,764034},
+                     {1338,983484,762824},
+                     9,10,false,
+                     {1338,983484,764034},
+                     {1338,983484,764034},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40427,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40427"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.256.0> terminating 
+** Last message in was {tcp,#Port<0.1027>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1027>,
+                     {{10,0,4,5},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983484,796467},
+                     {1338,983484,306820},
+                     8,10,false,
+                     {1338,983484,796467},
+                     {1338,983484,308396},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40320,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40320"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.371.0> terminating 
+** Last message in was {tcp,#Port<0.1035>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1035>,
+                     {{10,0,4,9},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,822521},
+                     {1338,983484,820885},
+                     9,10,false,
+                     {1338,983484,822521},
+                     {1338,983484,822521},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40448,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40448"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.236.0> terminating 
+** Last message in was {tcp,#Port<0.860>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.860>,
+                     {{10,0,4,25},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,202117},
+                     {1338,983484,200184},
+                     9,10,false,
+                     {1338,983484,202117},
+                     {1338,983484,202117},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40300,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40300"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.372.0> terminating 
+** Last message in was {tcp,#Port<0.1036>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1036>,
+                     {{10,0,4,8},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,825045},
+                     {1338,983484,823539},
+                     9,10,false,
+                     {1338,983484,825045},
+                     {1338,983484,825045},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40449,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40449"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.383.0> terminating 
+** Last message in was {tcp,#Port<0.1060>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1060>,
+                     {{10,0,4,36},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,903058},
+                     {1338,983484,901744},
+                     9,10,false,
+                     {1338,983484,903058},
+                     {1338,983484,903058},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40488,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40488"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.384.0> terminating 
+** Last message in was {tcp,#Port<0.1059>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1059>,
+                     {{10,0,4,35},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,904047},
+                     {1338,983484,902468},
+                     9,10,false,
+                     {1338,983484,904047},
+                     {1338,983484,904047},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40489,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40489"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.276.0> terminating 
+** Last message in was {tcp,#Port<0.1063>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1063>,
+                     {{10,0,4,24},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983484,914183},
+                     {1338,983484,418382},
+                     8,10,false,
+                     {1338,983484,914183},
+                     {1338,983484,420042},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40340,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40340"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.215.0> terminating 
+** Last message in was {tcp,#Port<0.946>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:03 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.946>,
+                     {{10,0,4,3},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983484,577345},
+                     {1338,983484,113839},
+                     8,10,false,
+                     {1338,983484,577345},
+                     {1338,983484,117874},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40283,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40283"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.285.0> terminating 
+** Last message in was {tcp,#Port<0.1075>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1075>,
+                     {{10,0,4,15},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983484,944489},
+                     {1338,983484,449963},
+                     8,10,false,
+                     {1338,983484,944489},
+                     {1338,983484,451041},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40349,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40349"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.301.0> terminating 
+** Last message in was {tcp,#Port<0.924>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.924>,
+                     {{10,0,4,38},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,535045},
+                     {1338,983484,533297},
+                     9,10,false,
+                     {1338,983484,535045},
+                     {1338,983484,535045},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40365,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40365"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.235.0> terminating 
+** Last message in was {tcp,#Port<0.859>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.859>,
+                     {{10,0,4,26},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,193150},
+                     {1338,983484,191940},
+                     9,10,false,
+                     {1338,983484,193150},
+                     {1338,983484,193150},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40299,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40299"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.300.0> terminating 
+** Last message in was {tcp,#Port<0.925>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.925>,
+                     {{10,0,4,39},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,534057},
+                     {1338,983484,532026},
+                     9,10,false,
+                     {1338,983484,534057},
+                     {1338,983484,534057},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40364,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40364"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.292.0> terminating 
+** Last message in was {tcp,#Port<0.1091>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1091>,
+                     {{10,0,4,8},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983484,983786},
+                     {1338,983484,489831},
+                     8,10,false,
+                     {1338,983484,983786},
+                     {1338,983484,491054},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40356,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40356"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.404.0> terminating 
+** Last message in was {tcp,#Port<0.1090>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1090>,
+                     {{10,0,4,15},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,981067},
+                     {1338,983484,979939},
+                     9,10,false,
+                     {1338,983484,981067},
+                     {1338,983484,981067},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40527,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40527"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.405.0> terminating 
+** Last message in was {tcp,#Port<0.1089>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1089>,
+                     {{10,0,4,14},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,982059},
+                     {1338,983484,980700},
+                     9,10,false,
+                     {1338,983484,982059},
+                     {1338,983484,982059},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40528,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40528"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.368.0> terminating 
+** Last message in was {tcp,#Port<0.1028>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1028>,
+                     {{10,0,4,12},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,799244},
+                     {1338,983484,797103},
+                     9,10,false,
+                     {1338,983484,799244},
+                     {1338,983484,799244},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40438,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40438"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.403.0> terminating 
+** Last message in was {tcp,#Port<0.1088>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1088>,
+                     {{10,0,4,16},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,969249},
+                     {1338,983484,967536},
+                     9,10,false,
+                     {1338,983484,969249},
+                     {1338,983484,969249},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40524,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40524"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.341.0> terminating 
+** Last message in was {tcp,#Port<0.989>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.989>,
+                     {{10,0,4,37},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,682216},
+                     {1338,983484,680603},
+                     9,10,false,
+                     {1338,983484,682216},
+                     {1338,983484,682216},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40405,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40405"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.376.0> terminating 
+** Last message in was {tcp,#Port<0.1044>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1044>,
+                     {{10,0,4,4},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8092,gen_tcp},
+                     true,
+                     {1338,983484,867589},
+                     {1338,983484,865237},
+                     9,10,false,
+                     {1338,983484,867589},
+                     {1338,983484,867589},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,40468,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40468"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.299.0> terminating 
+** Last message in was {tcp,#Port<0.1097>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1097>,
+                     {{10,0,4,1},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,21039},
+                     {1338,983484,527658},
+                     8,10,false,
+                     {1338,983485,21039},
+                     {1338,983484,529041},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40363,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40363"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.263.0> terminating 
+** Last message in was {tcp,#Port<0.1039>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1039>,
+                     {{10,0,4,37},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983484,833252},
+                     {1338,983484,343956},
+                     8,10,false,
+                     {1338,983484,833252},
+                     {1338,983484,345135},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40327,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40327"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.264.0> terminating 
+** Last message in was {tcp,#Port<0.1038>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1038>,
+                     {{10,0,4,36},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983484,834729},
+                     {1338,983484,344764},
+                     8,10,false,
+                     {1338,983484,834729},
+                     {1338,983484,346417},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40328,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40328"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 6-Jun-2012::13:51:31 ===
+** State machine <0.303.0> terminating 
+** Last message in was {tcp,#Port<0.1099>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Wed, 06 Jun 2012 12:08:04 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1099>,
+                     {{10,0,4,36},"cport-test4"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,983485,29948},
+                     {1338,983484,537946},
+                     8,10,false,
+                     {1338,983485,29948},
+                     {1338,983484,539066},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,40367,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"40367"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=INFO REPORT==== 6-Jun-2012::13:51:37 ===
+         ts_launcher:(4:<0.62.0>) Phase duration exceeded, more than 20% (82.3%) of users were not launched in time (1919 users), tsung may be overloaded !

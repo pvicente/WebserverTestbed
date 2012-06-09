@@ -1,0 +1,1981 @@
+
+=INFO REPORT==== 5-Jun-2012::14:16:50 ===
+     ts_launcher_mgr:(4:<0.57.0>) No registered processes ! syncing ...
+
+=INFO REPORT==== 5-Jun-2012::14:16:52 ===
+         ts_launcher:(4:<0.62.0>) Phase duration exceeded, more than 20% (82.1%) of users were not launched in time (257 users), tsung may be overloaded !
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.166.0> terminating 
+** Last message in was {tcp,#Port<0.1452>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62555\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1452>,
+                     {{10,0,2,12},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,173081},
+                     {1338,898610,844503},
+                     1,10,false,
+                     {1338,898620,173081},
+                     {1338,898610,846047},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,12010,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"12010"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,10}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.339.0> terminating 
+** Last message in was {tcp,#Port<0.1133>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62579\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1133>,
+                     {{10,0,2,23},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,191333},
+                     {1338,898617,948713},
+                     8,10,false,
+                     {1338,898618,191333},
+                     {1338,898617,950579},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,14204,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14204"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.359.0> terminating 
+** Last message in was {tcp,#Port<0.1134>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62580\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1134>,
+                     {{10,0,2,21},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898618,193077},
+                     {1338,898618,191449},
+                     9,10,false,
+                     {1338,898618,193077},
+                     {1338,898618,193077},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,14342,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14342"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.147.0> terminating 
+** Last message in was {tcp,#Port<0.1135>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62581\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1135>,
+                     {{10,0,2,31},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,194449},
+                     {1338,898610,550262},
+                     6,10,false,
+                     {1338,898618,194449},
+                     {1338,898610,552051},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,11926,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"11926"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,5}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.155.0> terminating 
+** Last message in was {tcp,#Port<0.1136>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62582\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1136>,
+                     {{10,0,2,23},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,193950},
+                     {1338,898610,663963},
+                     6,10,false,
+                     {1338,898618,193950},
+                     {1338,898610,665068},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,11958,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"11958"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,5}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.341.0> terminating 
+** Last message in was {tcp,#Port<0.1137>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62583\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1137>,
+                     {{10,0,2,19},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,198624},
+                     {1338,898617,955952},
+                     8,10,false,
+                     {1338,898618,198624},
+                     {1338,898617,957061},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,14210,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14210"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.433.0> terminating 
+** Last message in was {tcp,#Port<0.1455>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62612\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1455>,
+                     {{10,0,2,32},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,214540},
+                     {1338,898618,942123},
+                     8,10,false,
+                     {1338,898620,214540},
+                     {1338,898618,944047},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,14775,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14775"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.363.0> terminating 
+** Last message in was {tcp,#Port<0.1143>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62637\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1143>,
+                     {{10,0,2,13},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898618,252112},
+                     {1338,898618,250870},
+                     9,10,false,
+                     {1338,898618,252112},
+                     {1338,898618,252112},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,14367,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14367"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.364.0> terminating 
+** Last message in was {tcp,#Port<0.1144>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62660\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1144>,
+                     {{10,0,2,12},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898618,260986},
+                     {1338,898618,257251},
+                     9,10,false,
+                     {1338,898618,260986},
+                     {1338,898618,260986},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,14368,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14368"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.262.0> terminating 
+** Last message in was {tcp,#Port<0.1145>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62662\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1145>,
+                     {{10,0,2,4},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,262147},
+                     {1338,898617,35965},
+                     8,10,false,
+                     {1338,898618,262147},
+                     {1338,898617,37090},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,13687,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"13687"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.263.0> terminating 
+** Last message in was {tcp,#Port<0.1146>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62677\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1146>,
+                     {{10,0,2,39},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,271934},
+                     {1338,898617,40745},
+                     8,10,false,
+                     {1338,898618,271934},
+                     {1338,898617,42039},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,13693,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"13693"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.550.0> terminating 
+** Last message in was {tcp,#Port<0.1478>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62700\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1478>,
+                     {{10,0,2,18},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,322814},
+                     {1338,898620,320002},
+                     9,10,false,
+                     {1338,898620,322814},
+                     {1338,898620,322814},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15586,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15586"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.526.0> terminating 
+** Last message in was {tcp,#Port<0.1477>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62702\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1477>,
+                     {{10,0,2,33},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,318104},
+                     {1338,898620,58289},
+                     8,10,false,
+                     {1338,898620,318104},
+                     {1338,898620,60148},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,15418,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15418"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.549.0> terminating 
+** Last message in was {tcp,#Port<0.1476>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62701\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1476>,
+                     {{10,0,2,19},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,317083},
+                     {1338,898620,315861},
+                     9,10,false,
+                     {1338,898620,317083},
+                     {1338,898620,317083},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15583,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15583"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.369.0> terminating 
+** Last message in was {tcp,#Port<0.1152>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62727\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1152>,
+                     {{10,0,2,3},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898618,326039},
+                     {1338,898618,324043},
+                     9,10,false,
+                     {1338,898618,326039},
+                     {1338,898618,326039},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,14398,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14398"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.551.0> terminating 
+** Last message in was {tcp,#Port<0.1479>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62729\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1479>,
+                     {{10,0,2,15},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,334568},
+                     {1338,898620,331857},
+                     9,10,false,
+                     {1338,898620,334568},
+                     {1338,898620,334568},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15593,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15593"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.167.0> terminating 
+** Last message in was {tcp,#Port<0.1482>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62759\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1482>,
+                     {{10,0,2,11},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,373565},
+                     {1338,898610,851513},
+                     2,10,false,
+                     {1338,898620,373565},
+                     {1338,898610,853043},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,12013,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"12013"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,9}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.554.0> terminating 
+** Last message in was {tcp,#Port<0.1483>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62762\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1483>,
+                     {{10,0,2,9},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,376277},
+                     {1338,898620,374312},
+                     9,10,false,
+                     {1338,898620,376277},
+                     {1338,898620,376277},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15612,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15612"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.555.0> terminating 
+** Last message in was {tcp,#Port<0.1484>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62770\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1484>,
+                     {{10,0,2,8},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,377139},
+                     {1338,898620,375137},
+                     9,10,false,
+                     {1338,898620,377139},
+                     {1338,898620,377139},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15615,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15615"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.235.0> terminating 
+** Last message in was {tcp,#Port<0.1485>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62771\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1485>,
+                     {{10,0,2,7},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,377115},
+                     {1338,898613,318868},
+                     3,10,false,
+                     {1338,898620,377115},
+                     {1338,898613,320378},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,12249,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"12249"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,8}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.373.0> terminating 
+** Last message in was {tcp,#Port<0.1162>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62772\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1162>,
+                     {{10,0,2,35},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898618,373036},
+                     {1338,898618,371294},
+                     9,10,false,
+                     {1338,898618,373036},
+                     {1338,898618,373036},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,14417,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14417"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.397.0> terminating 
+** Last message in was {tcp,#Port<0.1251>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62792\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1251>,
+                     {{10,0,2,21},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,861830},
+                     {1338,898618,619952},
+                     8,10,false,
+                     {1338,898618,861830},
+                     {1338,898618,621199},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,14552,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14552"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.535.0> terminating 
+** Last message in was {tcp,#Port<0.1486>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62799\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1486>,
+                     {{10,0,2,17},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,392798},
+                     {1338,898620,140481},
+                     8,10,false,
+                     {1338,898620,392798},
+                     {1338,898620,142367},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,15458,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15458"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.536.0> terminating 
+** Last message in was {tcp,#Port<0.1487>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62804\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1487>,
+                     {{10,0,2,16},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,395709},
+                     {1338,898620,143222},
+                     8,10,false,
+                     {1338,898620,395709},
+                     {1338,898620,145028},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,15461,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15461"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.376.0> terminating 
+** Last message in was {tcp,#Port<0.1167>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62807\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1167>,
+                     {{10,0,2,30},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898618,392038},
+                     {1338,898618,390055},
+                     9,10,false,
+                     {1338,898618,392038},
+                     {1338,898618,392038},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,14426,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14426"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.556.0> terminating 
+** Last message in was {tcp,#Port<0.1488>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62806\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1488>,
+                     {{10,0,2,6},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,396188},
+                     {1338,898620,394282},
+                     9,10,false,
+                     {1338,898620,396188},
+                     {1338,898620,396188},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15624,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15624"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.377.0> terminating 
+** Last message in was {tcp,#Port<0.1168>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62808\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1168>,
+                     {{10,0,2,29},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898618,393040},
+                     {1338,898618,391683},
+                     9,10,false,
+                     {1338,898618,393040},
+                     {1338,898618,393040},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,14427,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14427"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.537.0> terminating 
+** Last message in was {tcp,#Port<0.1489>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62817\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1489>,
+                     {{10,0,2,14},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,398027},
+                     {1338,898620,144178},
+                     8,10,false,
+                     {1338,898620,398027},
+                     {1338,898620,146162},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,15464,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15464"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.559.0> terminating 
+** Last message in was {tcp,#Port<0.1494>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62824\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1494>,
+                     {{10,0,2,36},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,449058},
+                     {1338,898620,447718},
+                     9,10,false,
+                     {1338,898620,449058},
+                     {1338,898620,449058},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15655,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15655"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.560.0> terminating 
+** Last message in was {tcp,#Port<0.1497>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62842\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1497>,
+                     {{10,0,2,35},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,464035},
+                     {1338,898620,462082},
+                     9,10,false,
+                     {1338,898620,464035},
+                     {1338,898620,464035},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15660,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15660"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.453.0> terminating 
+** Last message in was {tcp,#Port<0.1498>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62854\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1498>,
+                     {{10,0,2,21},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,467216},
+                     {1338,898619,201777},
+                     8,10,false,
+                     {1338,898620,467216},
+                     {1338,898619,203044},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,14925,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14925"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.561.0> terminating 
+** Last message in was {tcp,#Port<0.1499>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62868\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1499>,
+                     {{10,0,2,32},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,470207},
+                     {1338,898620,468938},
+                     9,10,false,
+                     {1338,898620,470207},
+                     {1338,898620,470207},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15666,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15666"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.562.0> terminating 
+** Last message in was {tcp,#Port<0.1500>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62869\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1500>,
+                     {{10,0,2,31},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,473044},
+                     {1338,898620,471834},
+                     9,10,false,
+                     {1338,898620,473044},
+                     {1338,898620,473044},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15668,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15668"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.565.0> terminating 
+** Last message in was {tcp,#Port<0.1505>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62877\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1505>,
+                     {{10,0,2,25},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,508135},
+                     {1338,898620,506930},
+                     9,10,false,
+                     {1338,898620,508135},
+                     {1338,898620,508135},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15689,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15689"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.441.0> terminating 
+** Last message in was {tcp,#Port<0.1506>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62885\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1506>,
+                     {{10,0,2,13},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,508972},
+                     {1338,898619,41226},
+                     7,10,false,
+                     {1338,898620,508972},
+                     {1338,898619,43043},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,14829,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14829"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.566.0> terminating 
+** Last message in was {tcp,#Port<0.1507>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62898\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1507>,
+                     {{10,0,2,24},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,516180},
+                     {1338,898620,514305},
+                     9,10,false,
+                     {1338,898620,516180},
+                     {1338,898620,516180},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15694,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15694"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.567.0> terminating 
+** Last message in was {tcp,#Port<0.1509>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62912\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1509>,
+                     {{10,0,2,23},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898620,518727},
+                     {1338,898620,516954},
+                     9,10,false,
+                     {1338,898620,518727},
+                     {1338,898620,518727},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,15696,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15696"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.458.0> terminating 
+** Last message in was {tcp,#Port<0.1508>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62911\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1508>,
+                     {{10,0,2,11},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,519456},
+                     {1338,898619,263766},
+                     8,10,false,
+                     {1338,898620,519456},
+                     {1338,898619,265093},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,14954,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14954"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.460.0> terminating 
+** Last message in was {tcp,#Port<0.1519>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62942\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1519>,
+                     {{10,0,2,8},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,576798},
+                     {1338,898619,275564},
+                     8,10,false,
+                     {1338,898620,576798},
+                     {1338,898619,277028},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,14961,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14961"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.287.0> terminating 
+** Last message in was {tcp,#Port<0.1520>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62943\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1520>,
+                     {{10,0,2,26},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,577855},
+                     {1338,898617,273037},
+                     8,10,false,
+                     {1338,898620,577855},
+                     {1338,898617,275054},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,13840,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"13840"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.545.0> terminating 
+** Last message in was {tcp,#Port<0.1521>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62944\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1521>,
+                     {{10,0,2,31},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,579170},
+                     {1338,898620,274823},
+                     8,10,false,
+                     {1338,898620,579170},
+                     {1338,898620,276426},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,15557,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15557"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.546.0> terminating 
+** Last message in was {tcp,#Port<0.1522>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62953\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1522>,
+                     {{10,0,2,29},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,587765},
+                     {1338,898620,277915},
+                     8,10,false,
+                     {1338,898620,587765},
+                     {1338,898620,280063},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,15559,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15559"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.257.0> terminating 
+** Last message in was {tcp,#Port<0.1199>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62963\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1199>,
+                     {{10,0,2,13},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,585184},
+                     {1338,898616,958867},
+                     6,10,false,
+                     {1338,898618,585184},
+                     {1338,898616,960868},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,13649,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"13649"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,5}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.134.0> terminating 
+** Last message in was {tcp,#Port<0.1198>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62962\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1198>,
+                     {{10,0,2,5},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,585744},
+                     {1338,898610,418027},
+                     6,10,false,
+                     {1338,898618,585744},
+                     {1338,898610,420087},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,11892,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"11892"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,5}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.392.0> terminating 
+** Last message in was {tcp,#Port<0.1197>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62970\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1197>,
+                     {{10,0,2,29},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898618,582078},
+                     {1338,898618,580961},
+                     9,10,false,
+                     {1338,898618,582078},
+                     {1338,898618,582078},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,14535,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14535"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.518.0> terminating 
+** Last message in was {tcp,#Port<0.1584>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62977\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1584>,
+                     {{10,0,2,8},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898621,302801},
+                     {1338,898619,981895},
+                     7,10,false,
+                     {1338,898621,302801},
+                     {1338,898619,983069},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,15379,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15379"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,4}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.552.0> terminating 
+** Last message in was {tcp,#Port<0.1524>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62988\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1524>,
+                     {{10,0,2,14},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,617301},
+                     {1338,898620,340915},
+                     8,10,false,
+                     {1338,898620,617301},
+                     {1338,898620,342134},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,15600,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15600"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.357.0> terminating 
+** Last message in was {tcp,#Port<0.1169>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #62987\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1169>,
+                     {{10,0,2,28},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,395578},
+                     {1338,898618,165742},
+                     8,10,false,
+                     {1338,898618,395578},
+                     {1338,898618,167064},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,14325,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14325"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.239.0> terminating 
+** Last message in was {tcp,#Port<0.1525>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #63008\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1525>,
+                     {{10,0,2,39},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,623834},
+                     {1338,898613,330702},
+                     8,10,false,
+                     {1338,898620,623834},
+                     {1338,898613,332042},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,12259,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"12259"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.396.0> terminating 
+** Last message in was {tcp,#Port<0.1205>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #63010\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1205>,
+                     {{10,0,2,22},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,"myserver",8080,gen_tcp},
+                     true,
+                     {1338,898618,617048},
+                     {1338,898618,615829},
+                     9,10,false,
+                     {1338,898618,617048},
+                     {1338,898618,617048},
+                     [],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,14550,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14550"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,2}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.238.0> terminating 
+** Last message in was {tcp,#Port<0.1526>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #63009\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1526>,
+                     {{10,0,2,2},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,623435},
+                     {1338,898613,328702},
+                     8,10,false,
+                     {1338,898620,623435},
+                     {1338,898613,330213},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,12257,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"12257"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.348.0> terminating 
+** Last message in was {tcp,#Port<0.1215>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #63038\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1215>,
+                     {{10,0,2,10},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,653992},
+                     {1338,898618,18012},
+                     6,10,false,
+                     {1338,898618,653992},
+                     {1338,898618,20049},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,14244,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14244"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,5}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.381.0> terminating 
+** Last message in was {tcp,#Port<0.1214>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #63037\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1214>,
+                     {{10,0,2,19},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,653338},
+                     {1338,898618,445128},
+                     8,10,false,
+                     {1338,898618,653338},
+                     {1338,898618,447087},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,14460,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14460"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.220.0> terminating 
+** Last message in was {tcp,#Port<0.917>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #63054\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.917>,
+                     {{10,0,2,26},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898613,431027},
+                     {1338,898612,672868},
+                     6,10,false,
+                     {1338,898613,431027},
+                     {1338,898612,674062},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,12184,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"12184"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,5}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.299.0> terminating 
+** Last message in was {tcp,#Port<0.1217>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #63067\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1217>,
+                     {{10,0,2,28},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,666841},
+                     {1338,898617,475712},
+                     8,10,false,
+                     {1338,898618,666841},
+                     {1338,898617,477043},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,13946,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"13946"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.383.0> terminating 
+** Last message in was {tcp,#Port<0.1216>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #63066\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1216>,
+                     {{10,0,2,13},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898618,666158},
+                     {1338,898618,471765},
+                     8,10,false,
+                     {1338,898618,666158},
+                     {1338,898618,475048},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,14475,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"14475"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.528.0> terminating 
+** Last message in was {tcp,#Port<0.1586>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #63073\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1586>,
+                     {{10,0,2,28},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898621,243028},
+                     {1338,898620,79876},
+                     8,10,false,
+                     {1338,898621,243028},
+                     {1338,898620,81148},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,15433,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"15433"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=ERROR REPORT==== 5-Jun-2012::14:17:06 ===
+** State machine <0.296.0> terminating 
+** Last message in was {tcp,#Port<0.1531>,
+                            <<"HTTP/1.0 200 OK\r\nDate: Tue, 05 Jun 2012 12:21:14 GMT\r\nContent-Length: 20\r\nContent-Type: text/plain\r\nServer: TwistedWeb/12.0.0\r\n\r\nI am request #63097\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,#Port<0.1531>,
+                     {{10,0,2,33},"cport-test2"},
+                     undefined,0,10000,"myserver",8080,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8080",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,898620,717173},
+                     {1338,898617,438888},
+                     8,10,false,
+                     {1338,898620,717173},
+                     {1338,898617,441910},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,13924,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"13924"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_session_cache,{get_req,1,3}]}}
+
+=INFO REPORT==== 5-Jun-2012::14:17:06 ===
+         ts_launcher:(4:<0.62.0>) Phase duration exceeded, more than 20% (65.0%) of users were not launched in time (650 users), tsung may be overloaded !

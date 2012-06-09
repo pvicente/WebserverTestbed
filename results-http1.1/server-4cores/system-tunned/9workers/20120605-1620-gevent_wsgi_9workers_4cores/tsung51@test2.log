@@ -1,0 +1,48 @@
+
+=INFO REPORT==== 5-Jun-2012::16:19:41 ===
+     ts_launcher_mgr:(4:<0.57.0>) No registered processes ! syncing ...
+
+=INFO REPORT==== 5-Jun-2012::16:19:43 ===
+           ts_client:(3:<0.410.0>) Error: set profile return value is {error,
+                                                                       {normal,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           8}]}}} (count=2)
+
+=ERROR REPORT==== 5-Jun-2012::16:19:43 ===
+** State machine <0.410.0> terminating 
+** Last message in was {tcp,#Port<0.1277>,
+                            <<"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 18\r\nServer: gevent/0.13 Python/2.7\r\nConnection: close\r\nDate: Tue, 05 Jun 2012 14:23:51 GMT\r\n\r\n<b>hello world</b>">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,2,36},"cport-test2"},
+                     undefined,0,10000,"myserver",8092,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.1","myserver:8092",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1338,905982,980828},
+                     {1338,905982,676612},
+                     3,10,false,
+                     {1338,905982,980828},
+                     {1338,905982,678849},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,59518,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"59518"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error

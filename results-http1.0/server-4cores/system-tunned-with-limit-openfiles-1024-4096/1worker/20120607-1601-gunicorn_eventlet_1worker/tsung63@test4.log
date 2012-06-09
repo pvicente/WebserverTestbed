@@ -1,0 +1,51 @@
+
+=INFO REPORT==== 7-Jun-2012::16:04:47 ===
+     ts_launcher_mgr:(4:<0.57.0>) No registered processes ! syncing ...
+
+=INFO REPORT==== 7-Jun-2012::16:04:53 ===
+         ts_launcher:(4:<0.62.0>) Phase duration exceeded, more than 20% (75.7%) of users were not launched in time (1779 users), tsung may be overloaded !
+
+=INFO REPORT==== 7-Jun-2012::16:05:03 ===
+           ts_client:(3:<0.407.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           7}]}}} (count=3)
+
+=ERROR REPORT==== 7-Jun-2012::16:05:03 ===
+** State machine <0.407.0> terminating 
+** Last message in was {tcp,#Port<0.2535>,
+                            <<"HTTP/1.0 200 OK\r\nServer: gunicorn/0.14.3\r\nDate: Thu, 07 Jun 2012 14:05:03 GMT\r\nConnection: close\r\nContent-Type: text/plain\r\nContent-Length: 14\r\n\r\nHello, World!\n">>}
+** When State == wait_ack
+**      Data  == {state_rcv,none,
+                     {{10,0,4,5},"cport-test4"},
+                     undefined,0,10000,"myserver",8101,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,
+                     {ts_request,parse,false,[],[],
+                         {http_request,"/","1.0","myserver:8101",undefined,
+                             [],get,"application/x-www-form-urlencoded",[],
+                             <<>>,0,undefined,undefined,undefined,undefined},
+                         false,undefined,undefined,undefined},
+                     true,
+                     {1339,77901,669887},
+                     {1339,77889,26761},
+                     4,10,false,
+                     {1339,77901,669887},
+                     {1339,77889,28044},
+                     [],<<>>,
+                     {http,0,0,-1,{none,200},false,false,{false,false},[]},
+                     0,51384,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"51384"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.8) Gecko/20050513 Galeon/1.3.21",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error

@@ -1,0 +1,39 @@
+
+=INFO REPORT==== 7-Jun-2012::14:32:44 ===
+     ts_launcher_mgr:(4:<0.57.0>) No registered processes ! syncing ...
+
+=INFO REPORT==== 7-Jun-2012::14:32:53 ===
+         ts_launcher:(4:<0.62.0>) Phase duration exceeded, more than 20% (76.5%) of users were not launched in time (2017 users), tsung may be overloaded !
+
+=INFO REPORT==== 7-Jun-2012::14:33:03 ===
+         ts_launcher:(4:<0.62.0>) Phase duration exceeded, more than 20% (87.4%) of users were not launched in time (2621 users), tsung may be overloaded !
+
+=INFO REPORT==== 7-Jun-2012::14:33:13 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {normal,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test4"}]}}}], skip this session !
+
+=INFO REPORT==== 7-Jun-2012::14:33:13 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test4"}]}}}], skip this session !
+
+=INFO REPORT==== 7-Jun-2012::14:33:13 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test4"}]}}}], skip this session !

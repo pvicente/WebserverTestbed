@@ -1,0 +1,17 @@
+
+=INFO REPORT==== 7-Jun-2012::11:56:31 ===
+     ts_launcher_mgr:(4:<0.57.0>) No registered processes ! syncing ...
+
+=ERROR REPORT==== 7-Jun-2012::11:56:36 ===
+** State machine ts_launcher terminating 
+** Last event in was {launch,{[{0.2833333333333333,1988,3656.968017578125},
+                               {0.3,3000,10000},
+                               {0.31666666666666665,3170,10000},
+                               {0.3333333333333333,3335,10000}],
+                              800},
+                             now}
+** When State == wait
+**      Data  == {launcher,undefined,[],"test3",undefined,false,0,undefined,
+                           undefined,undefined,undefined,1,undefined}
+** Reason for termination = 
+** {timeout,{gen_server,call,[ts_launcher_mgr,{check_registered}]}}

@@ -1,0 +1,57 @@
+
+=INFO REPORT==== 5-Jun-2012::19:58:08 ===
+     ts_launcher_mgr:(4:<0.57.0>) No registered processes ! syncing ...
+
+=INFO REPORT==== 5-Jun-2012::19:58:11 ===
+           ts_client:(3:<0.370.0>) Error: set profile return value is {error,
+                                                                       {noproc,
+                                                                        {gen_server,
+                                                                         call,
+                                                                         [{global,
+                                                                           ts_config_server},
+                                                                          {get_req,
+                                                                           1,
+                                                                           1}]}}} (count=9)
+
+=ERROR REPORT==== 5-Jun-2012::19:58:11 ===
+** State machine <0.370.0> terminating 
+** Last message in was {timeout,#Ref<0.0.0.516>,end_thinktime}
+** When State == think
+**      Data  == {state_rcv,none,
+                     {{10,0,3,27},"cport-test3"},
+                     undefined,0,10000,"myserver",8100,gen_tcp,
+                     {proto_opts,negociate,10,600000,32768,32768,undefined,
+                         undefined},
+                     false,1,undefined,true,undefined,
+                     {1338,919091,541249},
+                     10,10,false,undefined,0,[],<<>>,
+                     {http,0,0,-1,{none,none},false,false,{false,false},[]},
+                     0,57097,524288,524288,
+                     {dyndata,
+                         [{tsung_userid,"57097"}],
+                         {http_dyndata,
+                             "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4",
+                             []}},
+                     ts_http,[],undefined,none}
+** Reason for termination = 
+** set_profile_error
+
+=INFO REPORT==== 5-Jun-2012::19:58:11 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test3"}]}}}], skip this session !
+
+=INFO REPORT==== 5-Jun-2012::19:58:11 ===
+         ts_launcher:(3:<0.62.0>) get_next_session failed [{'EXIT',
+                                                            {noproc,
+                                                             {gen_server,
+                                                              call,
+                                                              [{global,
+                                                                ts_config_server},
+                                                               {get_next_session,
+                                                                "test3"}]}}}], skip this session !
