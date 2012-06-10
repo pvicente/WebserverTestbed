@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+from optparse import OptionParser
+import tornado.httpserver
+import tornado.ioloop
+import tornado.wsgi
+
+parser = OptionParser()
+parser.add_option("-w", "--workers", dest="workers", default=1, type="int", help="Number of worker processes. Default 1")
+parser.add_option("-b", "--bind", type="string", dest="bind", default="0.0.0.0:8880", help="Bind address. Default 0.0.0.0:8090")
+
+(options, args) = parser.parse_args()
+address, port = options.bind.split(':')
+
+def simple_app(environ, start_response):
+    status = "200 OK"
+    #request=tornado.wsgi.HTTPRequest(environ)
+    response_headers = [("Content-type", "text/plain")]
+    if not environ.get('SERVER_PROTOCOL','HTTP/1.0') == 'HTTP/1.1':
+	response_headers.append(("Connection", "close"))
+    start_response(status, response_headers)
+    return ["Hello world!\n"]
+
+if __name__ == '__main__':
+	container = tornado.wsgi.WSGIContainer(simple_app)
+	http_server = tornado.httpserver.HTTPServer(container)
+	http_server.bind(int(port))
+	http_server.start(options.workers)
+	tornado.ioloop.IOLoop.instance().start()
+

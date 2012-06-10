@@ -1,0 +1,37 @@
+#!/usr/bin/env python
+import sys
+from gevent import server
+from gevent.baseserver import _tcp_listener
+from gevent import pywsgi
+from gevent import wsgi
+from gevent.monkey import patch_all; patch_all()
+from multiprocessing import Process
+from optparse import OptionParser
+from setproctitle import setproctitle
+
+parser = OptionParser()
+parser.add_option("-w", "--workers", dest="workers", default=1, type="int", help="Number of worker processes. Default 1")
+parser.add_option("-b", "--bind", type="string", dest="bind", default="0.0.0.0:8090", help="Bind address. Default 0.0.0.0:8090")
+parser.add_option("-p", "--pywsgi", dest="pywsgi", action="store_true", default=False,  help="Use gevent.pywsgi")
+
+(options, args) = parser.parse_args()
+
+address, port = options.bind.split(':')
+wsgi_tech = pywsgi if options.pywsgi else wsgi
+listener = _tcp_listener( (address, int(port)) )
+
+def hello_world(env, start_response):
+	start_response('200 OK', [('Content-Type', 'text/html')])
+	return ["<b>hello world</b>"]
+
+def serve_forever(listener, procname=''):
+	setproctitle(procname)
+	wsgi_tech.WSGIServer(listener, hello_world, log=None).serve_forever()
+
+if __name__ == "__main__":
+	default_title=sys.argv[0].replace('./','')
+	tech_string = ' [pywsgi]' if options.pywsgi else ' [wsgi]'
+	for i in xrange(options.workers):
+		title = default_title + tech_string + ' [worker]'
+		Process(target=serve_forever, args=(listener, title)).start()
+	setproctitle(default_title + tech_string + ' [master]')
