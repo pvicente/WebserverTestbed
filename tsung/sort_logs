@@ -10,6 +10,7 @@ import os
 import glob
 from bs4 import BeautifulSoup
 import json
+import itertools
 
 #parser = OptionParser()
 #parser.add_option("-s", "--sort", type="string", dest="bind", default="0.0.0.0:8880", help="Bind address. Default 0.0.0.0:8090")
@@ -38,6 +39,7 @@ class TestResults:
     def __init__(self, filename, **entries):
         self.__dict__.update(entries)
         self.afilename = filename
+        self.description = os.path.basename(os.path.dirname(filename)).split('-')[-1]
         self.output = json.dumps(self.__dict__, sort_keys=True, indent=4)
         
     def __str__(self):
@@ -60,11 +62,30 @@ def get_data_from_report_file(filename):
     with open(filename) as f:
         soup = BeautifulSoup(f)
         #getAll statitistics Name is contained in h3 and the next sibling is the table. Filtering tables withoud td
-        data = [ (tmp.getText().lower().strip().replace(' ', '_'), tmp.findNextSibling()) for tmp in soup.find_all('h3') if tmp.findNextSibling().find('td')]
+        filtered = lambda x: [tmp for tmp in x.findNextSiblings() if tmp.find('td')]
+        data = [ (tmp.getText().lower().strip().replace(' ', '_'), filtered(tmp)[0]) for tmp in soup.find_all('h3') if filtered(tmp)]
         res = dict([ (name, get_data_from_table(table)) for name, table in data])
         return TestResults(filename, **res)
             
-            
+def print_data(res, headers):
+    join_headers = lambda x: [x[0]+'.'+tmp for tmp in x[1].keys()]
+    output_header = ['test_description                  '] + list(itertools.chain(*[ join_headers(header) for header in headers ])) + ['filename']
+    template = ['{'+str(i)+':'+ str(len(output_header[i])+5)+'}' for i in xrange(len(output_header))]
+    template = ''.join(template)
+    
+    print template.format(*output_header)
+    
+    for data in res:
+        values = []
+        for label in headers:
+            key = label[0]
+            for subkey in label[1].keys():
+                tmp = getattr(data,key, None)
+                value = tmp.get(subkey)[label[1][subkey]] if tmp and tmp.get(subkey) else 0
+                values.append(str(value))
+        values = [data.description] + values + [data.afilename]
+        print template.format(*values)
+        
 
 if len(sys.argv) <2:
     print 'Not enough arguments. Directory path of logs is mandatory as argument. Example */*1worker*/report.html'
@@ -83,5 +104,14 @@ else:
 data_func = lambda k: k.http_return_code['200']['highest_rate']
 sort_func = lambda k: get_number(k.http_return_code['200']['highest_rate'])
 res = sorted([get_data_from_report_file(tmp) for tmp in filenames if os.path.exists(tmp)], key = sort_func, reverse=True)
-for tmp in res:
-    print "%s %s" % (tmp.afilename, data_func(tmp))
+
+errors_labels = reduce(lambda x,y: x | y, [set(tmp.errors.keys()) for tmp in res if hasattr(tmp, 'errors')])
+errors_values  = ['highest_rate' for x in xrange(len(errors_labels))]
+http_header = ('http_return_code', {'200': 'highest_rate', '500': 'highest_rate'})
+error_header = ('errors', dict(zip(errors_labels, errors_values)))
+counter_statistics = ('counters_statistics',{'users_count':'max', 'finish_users_count': 'max'})
+main_statistics = ('main_statistics',{'connect': 'highest_rate','request': 'highest_rate'})
+headers = [ http_header, main_statistics, counter_statistics, error_header ]
+
+print_data(res,headers)
+
