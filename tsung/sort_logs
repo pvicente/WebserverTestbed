@@ -12,11 +12,12 @@ from bs4 import BeautifulSoup
 import json
 import itertools
 
-#parser = OptionParser()
-#parser.add_option("-s", "--sort", type="string", dest="bind", default="0.0.0.0:8880", help="Bind address. Default 0.0.0.0:8090")
+parser = OptionParser()
+parser.add_option("-m", "--markdown", dest="markdown", default=False, help="Generate output with markdown sintax")
 
-#(options, args) = parser.parse_args()
-#address, port = options.bind.split(':')
+(options, args) = parser.parse_args()
+
+output = "markdown" if options.markdown else ""
 
 def is_number(s):
     try:
@@ -35,11 +36,26 @@ def get_number(s, n=0):
         else:
             return 0.0
 
+def get_number_with_description(s,n=0):
+    res = s.split()
+    try:
+        return float(res[n]), ''.join(res[n+1:])
+    except IndexError:
+        if res:
+            return res[-1], ""
+        else:
+            return 0.0, ""
+    except ValueError:
+        return 0.0, ""
+
 class TestResults:
     def __init__(self, filename, **entries):
         self.__dict__.update(entries)
         self.afilename = filename
-        self.description = os.path.basename(os.path.dirname(filename)).split('-')[-1]
+        dirname = os.path.dirname(filename)
+        workers = os.path.dirname(dirname)
+        systemstate = os.path.dirname(workers)
+        self.description = "%s-%s-%s" % (os.path.basename(dirname).split('-')[-1], os.path.basename(workers), os.path.basename(systemstate))
         self.output = json.dumps(self.__dict__, sort_keys=True, indent=4)
         
     def __str__(self):
@@ -67,24 +83,60 @@ def get_data_from_report_file(filename):
         res = dict([ (name, get_data_from_table(table)) for name, table in data])
         return TestResults(filename, **res)
             
-def print_data(res, headers):
+def print_data(res, headers, output):
     join_headers = lambda x: [x[0]+'.'+tmp for tmp in x[1].keys()]
-    output_header = ['test_description                  '] + list(itertools.chain(*[ join_headers(header) for header in headers ])) + ['filename']
-    template = ['{'+str(i)+':'+ str(len(output_header[i])+5)+'}' for i in xrange(len(output_header))]
-    template = ''.join(template)
+    output_header = ['test_description']+ list(itertools.chain(*[ join_headers(header) for header in headers ])) + ['filename']
+
     
-    print template.format(*output_header)
-    
+    output_data = []
+    max_description_len = len(output_header[0])
     for data in res:
         values = []
         for label in headers:
             key = label[0]
+            i=1
             for subkey in label[1].keys():
                 tmp = getattr(data,key, None)
-                value = tmp.get(subkey)[label[1][subkey]] if tmp and tmp.get(subkey) else 0
-                values.append(str(value))
+                value = tmp.get(subkey)[label[1][subkey]] if tmp and tmp.get(subkey) else str(0.0)
+                value = get_number_with_description(str(value))
+                values.append(str(value[0]))
+                if value[1] != "" and output_header[i].find(value[1]) == -1:
+                    output_header[i]= output_header[i] + value[1]
+                i+=1
+        tmp_description_len = len(data.description)
+        if tmp_description_len > max_description_len:
+            max_description_len = tmp_description_len
         values = [data.description] + values + [data.afilename]
-        print template.format(*values)
+        output_data.append(list(values))
+    
+    if output != 'markdown':
+        if len(output_header[0]) < max_description_len:
+            output_header[0]+=' '*(max_description_len-len(output_header[0]))
+    
+        template = ['{'+str(i)+':'+ str(len(output_header[i])+5)+'}' for i in xrange(len(output_header))]
+        template = ''.join(template)
+        print template.format(*output_header)
+        for tmp in output_data:
+            print template.format(*tmp)
+    else:
+        from texttable import Texttable
+        #join de first element with the file to have a markdown link
+        output_data = [["[%s](%s)" % (tmp[0],tmp[-1])]+tmp[1:] for tmp in output_data]
+        output_data = [output_header[0:-1]] + [tmp[0:-1] for tmp in output_data]
+        #get max len for each row
+        string_list_len = lambda x: [len(x) for x in tmp]
+        row = lambda x,i: [ row[i] for row in x ]
+        output_len = [string_list_len(tmp) for tmp in output_data]
+        output_len = [ max(row(output_len,i)) for i in xrange(len(output_len[0])) ]
+
+        #set output format
+        table=Texttable()
+        table.set_cols_width(output_len)
+        table.set_chars(['-','|','|:','-'])
+        table.set_deco(Texttable.HEADER|Texttable.VLINES| Texttable.BORDER)
+        table.add_rows(output_data)
+        print table.draw()
+        
         
 
 if len(sys.argv) <2:
@@ -113,5 +165,5 @@ counter_statistics = ('counters_statistics',{'users_count':'max', 'finish_users_
 main_statistics = ('main_statistics',{'connect': 'highest_rate','request': 'highest_rate'})
 headers = [ http_header, main_statistics, counter_statistics, error_header ]
 
-print_data(res,headers)
+print_data(res,headers,output)
 
